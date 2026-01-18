@@ -6,6 +6,8 @@ import (
 	"testing"
 	"time"
 
+	_ "modernc.org/sqlite"
+
 	"github.com/stretchr/testify/require"
 )
 
